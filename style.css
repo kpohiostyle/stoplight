@@ -1,0 +1,52 @@
+:root{
+    --primary: #272424;
+}
+.post{
+    margin: auto;
+    background-color: var(--primary);
+    width: 3rem;
+    height: 6rem;
+}
+.box{
+    margin: auto;
+    background-color: var(--primary);
+    width: 8rem;
+    height: 25rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.light{
+    background-image:url(https://www.searchpng.com/wp-content/uploads/2019/02/Black-Dots-background-PNG.png);
+    background-size: cover;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    margin:auto
+}
+.red{
+    background-color: darkred;
+   
+}
+.red:hover{
+    background-color: red;
+    box-shadow: 0 0 1.5em 1em pink;
+    cursor: pointer;
+}
+.yellow{
+    background-color: yellow; 
+}
+.yellow:hover{
+    background-color: yellow;
+    box-shadow: 0 0 1.5em 1em rgb(239, 255, 91);
+    cursor: pointer;
+}
+.green{
+    background-color: green;
+}
+.green:hover{
+    background-color: green;
+    box-shadow: 0 0 1.5em 1em rgb(104, 255, 98);
+    cursor: pointer;
+}
